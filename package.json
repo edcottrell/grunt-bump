@@ -1,13 +1,11 @@
 {
-  "name": "grunt-bump",
-  "description": "Bump package version",
-  "version": "0.7.0",
-  "homepage": "https://github.com/vojtajina/grunt-bump",
-  "author": {
-    "name": "Vojta Jína",
-    "email": "vojta.jina@gmail.com"
-  },
+  "name": "grunt-bumpver",
+  "description": "Bump package version, forked from https://github.com/vojtajina/grunt-bump to support hg",
+  "version": "0.9.0",
+  "homepage": "https://github.com/edcottrell/grunt-bumpver",
+  "author": "Ed Cottrell <npm-stuff@edcottrell.com>",
   "contributors": [
+    "Ed Cottrell <npm-stuff@edcottrell.com>",
     "Vojta Jina <vojta.jina@gmail.com>",
     "Mathias Paumgarten <paumgarten@soapcreative.com>",
     "Elfrey Shira <elfrey.shira@opower.com>",
@@ -41,10 +39,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/vojtajina/grunt-bump.git"
+    "url": "git://github.com/edcottrell/grunt-bumpver.git"
   },
   "bugs": {
-    "url": "https://github.com/vojtajina/grunt-bump/issues"
+    "url": "https://github.com/edcottrell/grunt-bumpver/issues"
   },
   "main": "tasks/bump.js",
   "engines": {
@@ -72,5 +70,8 @@
   },
   "keywords": [
     "gruntplugin"
-  ]
+  ],
+  "directories": {
+    "test": "test"
+  }
 }
